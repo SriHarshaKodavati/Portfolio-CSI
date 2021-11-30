@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.navbar ul li {
+  font-family: century;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+/* Home section */
+#home {
+  display: flex;
+  felx-direction: column;
+  background-color: rgba(o, o, o, o.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("images/image1.jpg.jpg") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  position: absolute;
+}
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+/* about section */
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+}
+h1 {
+  color: BLACK;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+.banner_image {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-size: cover;
+}
+
+.banner_content {
+  position: relative;
+  padding-top: 11%;
+  padding-bottom: 6%;
+  overflow: hidden;
+  margin-bottom: 16%;
+  font-family: Lucida, Sans Typewriter;
+  color: white;
+}
+
+.inner-banner-image {
+  padding-top: 12%;
+  width: 100%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 150;
+  height: 70px;
+  float: left;
+  margin-right: 30px;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.image {
+  width: 5%;
+  height: 5%;
+}
+
+.skilltable {
+  padding-left: 0px;
+  margin-left: 0px;
+}
